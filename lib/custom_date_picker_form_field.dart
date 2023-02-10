@@ -50,12 +50,12 @@ class CustomDatePickerFormField extends StatelessWidget {
 
         label: Text(_txtLabel),
       ),
-      validator: ((value) {
-        if (value == null || value.isEmpty) {
-          return '$_txtLabel cannot be empty';
-        }
-        return null;
-      }),
+      // validator: ((value) {
+      //   if (value == null || value.isEmpty) {
+      //     return '$_txtLabel cannot be empty';
+      //   }
+      //   return null;
+      // }),
       onTap: _callback,
     );
   }
